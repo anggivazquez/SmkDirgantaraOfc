@@ -1,0 +1,118 @@
+/* Reset Dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+  background-color: #f0f2f5;
+}
+
+.main-wrapper {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Sidebar Sederhana */
+.sidebar-dummy {
+  width: 250px;
+  background-color: #1a1a2e;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar-dummy h3 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #fff;
+}
+.sidebar-dummy a {
+  display: block;
+  color: #adb5bd;
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.sidebar-dummy a:hover,
+.sidebar-dummy a.active {
+  background-color: #a31d1d;
+  color: white;
+}
+
+/* Area Konten */
+.content-area {
+  flex: 1;
+  padding: 30px;
+}
+
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.header-section h1 {
+  color: #333;
+  font-size: 24px;
+}
+
+/* Tabel */
+.card-table {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th {
+  background-color: #f8f9fa;
+  padding: 15px;
+  text-align: left;
+  color: #666;
+  border-bottom: 2px solid #eee;
+}
+
+table td {
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+  color: #444;
+}
+
+/* Badge & Tombol */
+.badge {
+  background-color: #e1f7e3;
+  color: #27ae60;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.btn-back-dashboard {
+  background-color: #a31d1d;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn-delete {
+  color: #e74c3c;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.btn-delete:hover {
+  text-decoration: underline;
+}

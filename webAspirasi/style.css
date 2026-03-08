@@ -1,0 +1,105 @@
+/* Reset Dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+/* Header Putih */
+.main-header {
+  background-color: white;
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.main-header h1 {
+  color: #5d8aa8; /* Warna merah gelap */
+  letter-spacing: 2px;
+  font-size: 28px;
+}
+
+/* Navbar Merah */
+.navbar {
+  background-color: #5d8aa8; /* Merah gelap sesuai gambar */
+  color: white;
+  padding: 10px 0;
+}
+
+.nav-container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Konten Utama */
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 50px 20px;
+}
+
+.hero-section {
+  background-color: #e8e8e1; /* Warna krem keabu-abuan sesuai layar */
+  width: 100%;
+  max-width: 800px;
+  padding: 40px;
+  text-align: center;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hero-section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.hero-section p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Kotak Gambar/Logo */
+.image-placeholder {
+  background-color: white;
+  border: 1px solid #999;
+  padding: 20px;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-placeholder img {
+  max-width: 100%;
+  height: auto;
+}
